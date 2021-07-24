@@ -1,0 +1,17 @@
+<div id="breadcrumbs">
+    <a href="/">home</a>
+		{{ $.Scratch.Set "loopPos" 0 }} 
+    {{ range (split .RelPermalink "/") }}
+		{{ if gt (len . ) 0 }}
+		{{ if gt ($.Scratch.Get "loopPos") 1 }}
+			{{ if eq $.Section "services" }}
+			<span class="seperator">/</span>
+			<a href="/services/{{ $.Title }}">{{$.Title}}</a>
+			{{ end }}
+		{{ else }} 
+			<span class="seperator">/</span><a href="/{{- . -}}">{{- . -}}</a>
+		{{ end }} 
+		{{ end }}
+    {{  $.Scratch.Set "loopPos" (add ($.Scratch.Get "loopPos") 1) }}
+    {{ end }}
+</div>
