@@ -1,7 +1,6 @@
 +++
 title = "about"
-description = "about our services"
-aliases = ["about-us", "contact"]
+description = "who we are"
 +++
 
 ### about

@@ -1,6 +1,6 @@
 # Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
 # and drop a star while you're at it. ;)
-baseurl = "topconconsulting.com"
+baseurl = "https://6862cd46.site-b60.pages.dev"
 title = "topcon consulting, llc"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
@@ -19,8 +19,6 @@ defaultExtension= "html"
 metaDataFormat= "yaml"
 
 [taxonomies]
-  tag      = "tags"
-  category = "categories"
 	services = "services"
 
 [params.main]
