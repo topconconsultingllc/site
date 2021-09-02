@@ -18,8 +18,6 @@ defaultExtension= "html"
 # hugo new command. "toml", "yaml", or "json"
 metaDataFormat= "yaml"
 
-[taxonomies]
-	services = "services"
 
 [params.main]
   enabled = true
