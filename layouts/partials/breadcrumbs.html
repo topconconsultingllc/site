@@ -9,7 +9,7 @@
 			<a href="{{ $.Permalink }}">{{$.Title}}</a>
 			{{ end }}
 		{{ else }} 
-			<span class="seperator">/</span><a href="/{{- . -}}">{{- . -}}</a>
+			<span class="seperator">/ </span><a href="/{{- . -}}">{{- . -}}</a>
 		{{ end }} 
 		{{ end }}
     {{  $.Scratch.Set "loopPos" (add ($.Scratch.Get "loopPos") 1) }}
