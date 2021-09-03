@@ -8,7 +8,7 @@
 html {
     font-family: 'Josefin Slab', monospace;
 		font-weight: 500;
-		font-size: calc(1em + .5vw);
+		font-size: calc(1em + .25vw);
 }
 body {
     margin: 0;
